@@ -2895,11 +2895,32 @@ input, select, textarea {
 	.navbar-brand {
 		padding-left: .5em;
 	}
-
+	
 	.navbar-collapse {
 		display: flex;
 		justify-content: flex-end;
+	}	
+
+	.navbar-toggler {
+		padding: 0 .5em;
+		height: 2em;
+		border: none;
 	}
+
+	/* .navbar-toggler:focus,
+	.navbar-toggler:active {
+		outline: 0;
+	}
+
+	/* hide close when burger shown */
+	/* .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+	   display: inline;
+	}
+
+	.navbar-toggler.collapsed .close-icon {
+		display: none;
+	 } */
+  
 
 /* Section/Article */
 
