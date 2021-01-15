@@ -1,0 +1,16 @@
+# Query: frederi
+# ContextLines: 1
+
+3 results - 3 files
+
+assets/css/main.css:
+  2  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+  4  
+
+assets/sass/main.scss:
+  8  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i');
+  10  
+
+assets/sass/base/_typography.scss:
+  72  	h1 {
+  74  		font-size: 3.5rem;
