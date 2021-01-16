@@ -2894,6 +2894,7 @@ input, select, textarea {
 /* NavBar */
 	.navbar-brand {
 		padding-left: .5em;
+		font-family: 'Gentium Book Basic', serif;
 	}
 	
 	.navbar-collapse {
@@ -2907,19 +2908,10 @@ input, select, textarea {
 		border: none;
 	}
 
-	/* .navbar-toggler:focus,
-	.navbar-toggler:active {
-		outline: 0;
+	.nav-link {
+		font-family: 'Gentium Book Basic', serif;
+		text-align: right;
 	}
-
-	/* hide close when burger shown */
-	/* .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-	   display: inline;
-	}
-
-	.navbar-toggler.collapsed .close-icon {
-		display: none;
-	 } */
   
 
 /* Section/Article */
@@ -8280,6 +8272,10 @@ input, select, textarea {
 	}
 
 /* Wrapper */
+
+	.wrapper {
+		padding-top: .5em;
+	}
 
 	#wrapper {
 		background-color: inherit;
