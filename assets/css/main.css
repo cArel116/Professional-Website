@@ -2894,12 +2894,25 @@ input, select, textarea {
 /* NavBar */
 	.navbar-brand {
 		padding-left: .5em;
+		font-family: 'Gentium Book Basic', serif;
 	}
-
+	
 	.navbar-collapse {
 		display: flex;
 		justify-content: flex-end;
+	}	
+
+	.navbar-toggler {
+		padding: 0 .5em;
+		height: 2em;
+		border: none;
 	}
+
+	.nav-link {
+		font-family: 'Gentium Book Basic', serif;
+		text-align: right;
+	}
+  
 
 /* Section/Article */
 
@@ -8259,6 +8272,10 @@ input, select, textarea {
 	}
 
 /* Wrapper */
+
+	.wrapper {
+		padding-top: .5em;
+	}
 
 	#wrapper {
 		background-color: inherit;
