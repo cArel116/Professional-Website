@@ -8630,3 +8630,8 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+/*Extras*/
+	.p-skills {
+		text-align: left;
+	}
